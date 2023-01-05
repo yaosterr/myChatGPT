@@ -1,0 +1,15 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "My ChatGPT Extension",
+  "description": "This extension allows the user to use chatGPT in Google Chrome.",
+  "version": "1.0",
+  "author": "Eric Yao",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.jpeg",
+    "default_popup": "popup.html"
+  }
+}
